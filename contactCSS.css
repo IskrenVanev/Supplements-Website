@@ -1,0 +1,189 @@
+@font-face {
+
+    src: url(fonts/MagnificChaosPersonalUseRegular-x3J88.ttf);
+    font-family: MagnificentChaos;
+}
+
+.backgroundImage{
+ 
+    background-image: url('stars.jpg');
+    background-repeat:repeat;
+    background-size: cover;
+ height:100vh;
+ background-position: center center;
+ overflow-x: hidden;
+  
+ background-color: #0005; 
+ background-blend-mode: darken;
+    
+}
+
+#title a{
+   
+    position: relative;
+    display:inline;
+      color:white;
+      top:30px;
+      left:30px;
+      font-size: 45px;
+      text-decoration: none;
+      font-family:MagnificentChaos;
+      z-index:9999999;
+      
+  }
+  @media only screen and (min-width: 200px) {
+    #title a{
+   
+      position: relative;
+      display:inline;
+        color:white;
+        top:30px;
+        left:30px;
+        font-size: 25px;
+        text-decoration: none;
+        font-family:MagnificentChaos;
+        z-index:9999999;
+        
+    }
+    }
+  @media only screen and (min-width: 300px) {
+    #title a{
+   
+      position: relative;
+      display:inline;
+        color:white;
+        top:30px;
+        left:30px;
+        font-size: 35px;
+        text-decoration: none;
+        font-family:MagnificentChaos;
+        z-index:9999999;
+        
+    }
+
+  }
+  @media only screen and (min-width: 600px) {
+    #title a{
+   
+      position: relative;
+      display:inline;
+        color:white;
+        top:30px;
+        left:30px;
+        font-size: 45px;
+        text-decoration: none;
+        font-family:MagnificentChaos;
+        z-index:9999999;
+        
+    }
+    }
+
+
+
+
+  .MadeByMe{
+    font-size: 50px;
+    color: lightgreen;
+    position: relative;
+    text-align: center;
+    margin:0 auto;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+ @media only screen and (min-width: 200px) {
+    .MadeByMe{
+      font-size: 30px;
+      color: lightgreen;
+      position: relative;
+      text-align: center;
+      margin:0 auto;
+      padding-top: 100px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+  }
+  @media only screen and (min-width: 300px) {
+    .MadeByMe{
+      font-size: 30px;
+      color: lightgreen;
+      position: relative;
+      text-align: center;
+      margin:0 auto;
+      padding-top: 100px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+ 
+  }
+
+  @media only screen and (min-width: 600px) {
+    .MadeByMe{
+      font-size: 50px;
+      color: lightgreen;
+      position: relative;
+      text-align: center;
+      margin:0 auto;
+      padding-top: 100px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+  }
+
+
+
+  .ForContact{
+    position: relative;
+    font-size: 25px;
+    color:white;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+
+
+  @media only screen and (min-width: 200px) {
+
+    .ForContact{
+        position: relative;
+        font-size: 20px;
+        color:white;
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin:0 auto;
+      }
+
+  }
+  @media only screen and (min-width: 300px) {
+
+    .ForContact{
+        position: relative;
+        font-size: 25px;
+        color:white;
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin:0 auto;
+      }
+ 
+  }
+
+  @media only screen and (min-width: 600px) {
+
+    .ForContact{
+        position: relative;
+        font-size: 25px;
+        color:white;
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin:0 auto;
+      }
+
+  }

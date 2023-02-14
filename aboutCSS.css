@@ -1,0 +1,176 @@
+@font-face {
+
+    src: url(fonts/MagnificChaosPersonalUseRegular-x3J88.ttf);
+    font-family: MagnificentChaos;
+}
+
+.backgroundImage{
+ 
+    background-image: url('stars.jpg');
+    background-repeat:repeat;
+    background-size: cover;
+ height:100vh;
+ background-position: center center;
+ overflow-x: hidden;
+  
+ background-color: #0005; 
+ background-blend-mode: darken;
+    
+}
+
+#title a{
+   
+    position: relative;
+    display:inline;
+      color:white;
+      top:30px;
+      left:30px;
+      font-size: 45px;
+      text-decoration: none;
+      font-family:MagnificentChaos;
+      z-index:9999999;
+      
+  }
+  @media only screen and (min-width: 200px) {
+    #title a{
+   
+      position: relative;
+      display:inline;
+        color:white;
+        top:30px;
+        left:30px;
+        font-size: 25px;
+        text-decoration: none;
+        font-family:MagnificentChaos;
+        z-index:9999999;
+        
+    }
+    }
+  @media only screen and (min-width: 300px) {
+    #title a{
+   
+      position: relative;
+      display:inline;
+        color:white;
+        top:30px;
+        left:30px;
+        font-size: 35px;
+        text-decoration: none;
+        font-family:MagnificentChaos;
+        z-index:9999999;
+        
+    }
+
+  }
+  @media only screen and (min-width: 600px) {
+    #title a{
+   
+      position: relative;
+      display:inline;
+        color:white;
+        top:30px;
+        left:30px;
+        font-size: 45px;
+        text-decoration: none;
+        font-family:MagnificentChaos;
+        z-index:9999999;
+        
+    }
+    }
+
+
+  .WhoAreWe{
+    font-size: 50px;
+    color: lightgreen;
+    position: relative;
+    text-align: center;
+  }
+  .AboutUs{
+    font-size: 25px;
+    color:white;
+    text-align: center;
+  }
+  @media only screen and (min-width: 200px) {
+    .WhoAreWe{
+      font-size: 30px;
+      color: lightgreen;
+      position: relative;
+      text-align: center;
+    }
+    .AboutUs{
+      font-size: 20px;
+      color:white;
+      text-align: center;
+    }
+  }
+  @media only screen and (min-width: 300px) {
+    .WhoAreWe{
+      font-size: 30px;
+      color: lightgreen;
+      position: relative;
+      text-align: center;
+    }
+    .AboutUs{
+      font-size: 20px;
+      color:white;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .WhoAreWe{
+      font-size: 50px;
+      color: lightgreen;
+      position: relative;
+      text-align: center;
+    }
+    .AboutUs{
+      font-size: 30px;
+      color:white;
+      text-align: center;
+    }
+  }
+
+  .FoodPyramid{
+    position: relative;
+       size: 60%;
+        height: 40vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 60px;
+  }
+  @media only screen and (min-width: 200px) {
+    .FoodPyramid{
+      size: 20%;
+      height: 30vh;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      padding-top: 30px;
+      }
+    }
+  @media only screen and (min-width: 300px) {
+    .FoodPyramid{
+      size: 20%;
+      height: 30vh;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      padding-top: 30px;
+      }
+    }
+    @media only screen and (min-width: 600px) {
+      .FoodPyramid{
+        size: 20%;
+        height: 30vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 50px;
+        }
+      }

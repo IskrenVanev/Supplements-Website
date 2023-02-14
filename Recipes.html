@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foods</title>
+    <link rel="stylesheet" type="text/css" href="recipesCSS.css" />
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+  </head>
+  <body class="backgroundImage">
+    <h1 id="title">
+      <a class="titleStyle" href="http://127.0.0.1:5500/mainPage.html">
+        SupplementsInfo
+      </a>
+    </h1>
+    <div class="CaloriesField">How much calories do you want to consume?</div>
+    <form class="TheForm" id="TheForm">
+      <p>Calories:</p>
+      <input
+        type="text"
+        name="txtCalories"
+        id="txtCalories"
+        placeholder="Enter max calories"
+      />
+      <br />
+      <input
+        type="button"
+        id="submitBtn"
+        value="Submit"
+        onclick="getCalories()"
+      />
+    </form>
+
+    <!--Hranitelni produkti-->
+    <div class="products-list">
+      <div class="products">
+        <!-- render porducts here -->
+      </div>
+
+      <!-- Krai Na Hranitelni produkti-->
+
+      <!-- Kolichka-->
+      <div class="cart">
+        <div class="cart-header">
+          <div class="column1">Item</div>
+          <div class="column2">Food kcal</div>
+          <div class="column3">Units</div>
+        </div>
+        <div class="cart-items">
+          <!-- render cart items here -->
+        </div>
+        <div class="cart-footer">
+          <div class="subtotal">Total calories: 0</div>
+          <div class="checkout" id="eatenKcal" onclick="EatTheFood()">Eat</div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="foodProducts.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="recipesJS.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
